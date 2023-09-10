@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+/*font-family: 'Borel', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Kablammo&display=swap');
+/*font-family: 'Borel', cursive;
+font-family: 'Kablammo', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/*font-family: 'Amatic SC', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Kablammo&display=swap');
+/*font-family: 'Bebas Neue', sans-serif;
+font-family: 'Borel', cursive;
+font-family: 'Kablammo', cursive;*/
+
+html{
+     scroll-behavior: smooth;
+}
+
+
+
+body{
+    background: linear-gradient(45deg,rgb(0, 255, 8),rgb(234, 255, 0),rgb(0, 255, 26),rgb(234, 255, 0));
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+
+
+
+
+.titulo{
+    
+    width: auto;
+    font-family: 'Borel', cursive;
+    font-family: 'Kablammo', cursive;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    transition: all ease 0.3s;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: -8px;
+    padding: 380px;   
+    padding-top: 100px;
+}
+
+
+
+
+.seguparte{
+    background-color:cadetblue ;    
+    margin-left:380px;
+    margin-right: 380px;
+    margin: -8px;
+    padding: 350px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 242, 242);
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+    background-size: 400% 400%;
+    
+    
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+
+
+.separaciondos{
+    background: linear-gradient(45deg,rgb(255, 255, 255),#f3f30333,rgb(0, 255, 26),rgb(255, 255, 255));
+    margin: -8px;
+    padding: 230px;
+    animation: cambiar 10s ease-in-out infinite;
+    background-size: 400% 400%;
+    position: relative;
+    
+}
+
+
+
+.redes{
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    text-align: center;
+    top: -200px;
+    font-size: 50px;
+    text-shadow: 10px -10px 4px rgb(255, 255, 255);
+
+    
+}
+
+.biografia{
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin: -20px;
+    position: relative;
+    right: 100px;
+    top: -125px;
+    width: 60%;
+    
+    
+
+}
+
+.biografia0{
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin: -2px;
+   right: -600px;
+   position: relative;
+   top: -329px;
+   width: 60%;
+}
+
+
+
+/*.tiktok2{
+    position: relative;
+    top: -100px;
+    left: -90px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}*ss/
+
+
+
+/*
+.apps{
+    width: 190px;
+    height:  200px;
+}*/
+
+
+/*.tiktok{
+    width: 90px;
+    height:  100px;
+    text-align: center;
+}*/
+/*
+:root{
+    --border-color: linear-gradient(
+        to right,
+        #504136 0%,
+        #689689 100%
+    );
+    --card-color: #A9E5BB
+}*/
+/*
+.card{
+    background: var(--border-color);
+    aspect-ratio: 10/16;
+    width: 300px;
+    padding: 5px;
+    border-radius: 16px;
+    position: relative;
+    left: -200px;
+}
+
+.card-body{
+    background: var(--card-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 26px;
+   
+}
+
+.tiktoktitulo{
+    top: -200px;
+    position: relative;
+    text-align: center;
+    right: -130px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.tiktok{
+    height: 300px;
+    width: 300px;
+    right: 60px;
+    position: relative;
+   transition: box-shadow .1s, transform .10s;
+   
+   
+}
+*/
+
+
+
+.tiktok:hover{
+    box-shadow: 0px 0px 50px black;
+}
+
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: transparent;
+
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background: #33ff00;
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+/*
+.tiktok {
+	view-timeline-name: --tiktok;
+	view-timeline-axis: block;
+
+	animation-timeline: --tiktok;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+
+
+.tiktoktitulo{
+    
+        view-timeline-name: --tiktok;
+        view-timeline-axis: block;
+    
+        animation-timeline: --tiktok;
+        animation-name: show;
+    
+        animation-range: entry 25% cover 30%;
+        animation-fill-mode: both;
+    
+    
+}*/
+
+
+/*
+.card{
+    view-timeline-name: --tiktok;
+    view-timeline-axis: block;
+
+    animation-timeline: --tiktok;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+.card-body{
+    view-timeline-name: --tiktok;
+    view-timeline-axis: block;
+
+    animation-timeline: --tiktok;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+*/
+
+.redes{
+    view-timeline-name: --tiktok;
+    view-timeline-axis: block;
+
+    animation-timeline: --tiktok;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+.biografia{
+    view-timeline-name: --tiktok;
+    view-timeline-axis: block;
+
+    animation-timeline: --tiktok;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+
+.biografia0{
+    view-timeline-name: --tiktok;
+    view-timeline-axis: block;
+
+    animation-timeline: --tiktok;
+    animation-name: show;
+
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+
+
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+   box-sizing: border-box;
+   font-size: 25px;
+}
+
+/*
+ul{
+    position: relative;
+    transform: skewY(-15deg);
+    
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    width: 200px;
+    height: 40px;
+    background: #3e3f46;
+    padding: 15px;
+    transition: 0.5s;
+    top: -300px;
+    left: 300px;
+    z-index: var(--i);
+}
+
+ul li::before{
+content: '';
+position: absolute;
+top: -0px;
+left: -40px;
+width: 40px;
+height: 100%;
+background: #2e3133;
+transform-origin: right;
+transform: skewY(45deg);
+transition: 0.5s;
+}
+
+ul li::after{
+    content: '';
+    position: absolute;
+    top: -39px;
+    left: -0px;
+    width: 100%;
+    height: 40px;
+    width: 200px;
+    background: #35383e;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+ul li a{
+    text-decoration: none;
+    color: lawngreen;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+ul li:hover a{
+    color: white;
+}
+
+ul li:hover{
+    background: #33a3ee;
+    transform: translateX(50px);
+}
+
+
+ul li:hover::before{
+    background: #1f5378;
+}
+
+
+ul li:hover::after{
+    background:#2982b9;
+}
+
+ul li:last-child::after{
+    box-shadow: -100px 120px 20px rgba(0,0,0,0.25);
+}
+*/
+
+
+
+
+
+.lemon{
+    width: 1000px;
+    height: 550px;
+    position: relative;
+    left: -80px;
+    top: -280px;
+    left: 23ch;
+}
+
+.lemon2{
+    position: absolute;
+    top: -380px;
+    right: 780px;
+    width: 400px;
+}
+
+.texttelefono{
+    text-decoration: none;
+    top: -530px;
+    box-shadow: 5px 2px 2px rgb(42, 41, 63);
+    text-shadow: 0px 0px 5px;
+    left: 20px;
+}
+
+
+.redestelefono:hover{
+    color: #ffffff;
+}
+
+.redestelefono2:hover{
+    color: #ffffff;
+}
+.redestelefono3:hover{
+    color: #ffffff;
+}
+.redestelefono4:hover{
+    color: #ffffff;
+}
+
+
+
+.redestelefono{
+    transform: skewX(25deg);
+    position: absolute;
+    font-size: 40px;
+    color: #5c5c5c;
+    top: -280px;
+    left: -100px;
+    text-decoration: none;
+}
+.redestelefono2{
+    transform: skewX(28deg);
+    position: absolute;
+    font-size: 40px;
+    color: #5c5c5c;
+    top: -210px;
+    left: -80px;
+    text-decoration: none;
+}
+
+.redestelefono3{
+    transform: skewX(25deg);
+    position: absolute;
+    font-size: 40px;
+    color: #5c5c5c;
+    top: -130px;
+    left: -60px;
+    text-decoration: none;
+}
+
+.redestelefono4{
+    transform: skewX(25deg);
+    position: absolute;
+    font-size: 40px;
+    color: #5c5c5c;
+    top: -50px;
+    left: -30px;
+    text-decoration: none;
+}
+
+
+
+.pasadate{
+    top: -150px;
+    left: 500px;
+    font-size: 100px;
+    color: rgb(75, 75, 75);
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 13ch;
+    
+
+    animation: typing 3s infinite steps(13),
+    blink  .5s ;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
+
+.imgtransition{
+    position: absolute;
+    width: 1479px;
+    height: 100px;
+    top: -100px;
+    left: -1px;
+}
+
+.imgtransition2{
+    position: absolute;
+    width: 1479px;
+    height: 100px;
+    top: -1px;
+    left: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    html{
+        scroll-behavior: smooth;
+   }
+   
+   
+   
+   body{
+       background: linear-gradient(45deg,rgb(255, 255, 255),rgb(0, 255, 21),rgb(0, 255, 26),rgb(255, 255, 255));
+       background-size: 400% 400%;
+       position: relative;
+       animation: cambiar 10s ease-in-out infinite;
+   }
+   
+   
+   
+   
+   .titulo{
+       
+       height: 900px;
+       background-color: rgb(255, 255, 255);
+       margin: -8px;
+       padding: 30px;   
+       padding-top: 10px;
+       image-resolution: 4k;
+   }
+   
+   
+   .pasa{
+    position: absolute;
+    left: -8ch;
+    top: 5ch;
+    width: 40%;
+
+   }
+   
+   .seguparte{
+       background-color:cadetblue ;    
+       margin-left:380px;
+       margin-right: 380px;
+       margin: -8px;
+       padding: 350px;
+       font-family: 'Amatic SC', cursive;
+       color: rgb(255, 242, 242);
+       font-size: 20px;
+       font-weight: 100;
+       text-decoration: none;
+       position: relative;
+
+       
+       
+   }
+   
+
+
+   .imgtransition{
+    height: 100px;
+    width: 378px;
+   }
+   .imgtransition2{
+    height: 100px;
+    width: 378px;
+   }
+
+
+.segutext{
+    position: absolute;
+    left: 3ch;
+    top: 20ch;
+    width: 40%;
+   
+}
+
+   @keyframes cambiar{
+       0%{background-position: 0 50%;}
+       50%{background-position: 100% 50%;}
+       100%{background-position: 0 50%;}
+   }
+   
+   
+   
+   .separaciondos{
+       background: linear-gradient(45deg,rgb(255, 255, 255),#f3f30333,rgb(0, 255, 26),rgb(255, 255, 255));
+       margin: -8px;
+       padding: 230px;
+       animation: cambiar 10s ease-in-out infinite;
+       background-size: 400% 400%;
+       position: relative;
+   }
+   
+   
+   
+   .redes{
+       font-family: 'Amatic SC', cursive;
+       color: black;
+       text-align: center;
+       top: -200px;
+       font-size: 50px;
+       text-shadow: 10px -10px 4px rgb(255, 255, 255);
+       left: -100px;
+       padding: 10%;
+      
+       
+   }
+   
+   .biografia{
+       font-family: 'Amatic SC', cursive;
+       color: rgb(255, 254, 254);
+       font-size: 35px;
+       margin: -20px;
+       position: absolute;
+       left: 3ch;
+       top: 20ch;
+       width: 70%;
+      
+       
+       
+   
+   }
+   
+   .biografia0{
+       font-family: 'Amatic SC', cursive;
+       color: rgb(255, 255, 255);
+       font-size: 35px;
+       margin: -2px;
+      position: absolute;
+      left: 1ch;
+       top: 60ch;
+       width: 70%;
+   }
+   
+   .lemon{
+    visibility: hidden;
+   }
+
+   
+   .lemon2{
+       position: relative;
+       top: 1ch;
+        left: -240px;
+       width: 380px;
+
+   }
+   
+   .texttelefono{
+       text-decoration: none;
+       box-shadow: 5px 2px 2px rgb(42, 41, 63);
+       text-shadow: 0px 0px 5px;
+       position: absolute;
+       top: 950px;
+       left: -70px;
+   }
+   
+   .redestelefono{
+       transform: skewX(25deg);
+       position: absolute;
+       font-size: 40px;
+       color: #080808;
+       top: -280px;
+       left: -100px;
+       text-decoration: none;
+   }
+   .redestelefono2{
+       transform: skewX(28deg);
+       position: absolute;
+       font-size: 40px;
+       color: #080808;
+       top: -210px;
+       left: -80px;
+       text-decoration: none;
+   }
+   
+   .redestelefono3{
+       transform: skewX(25deg);
+       position: absolute;
+       font-size: 40px;
+       color: #080808;
+       top: -130px;
+       left: -60px;
+       text-decoration: none;
+   }
+   
+   .redestelefono4{
+       transform: skewX(25deg);
+       position: absolute;
+       font-size: 40px;
+       color: #080808;
+       top: -50px;
+       left: -30px;
+       text-decoration: none;
+   }
+   
+
+
+
+   .pasadate{
+    visibility: hidden;
+   }
+
+
+
+}
+
+
+
+
+.info {
+padding: 4px;
+width: 60px;
+
+}
+
+
